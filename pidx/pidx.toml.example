@@ -1,0 +1,31 @@
+owner = "Shuozeli"
+index_path = "~/projects/index/README.md"
+
+[sync]
+github_token_env = "GITHUB_TOKEN"
+commits_per_sync = 100
+db_path = "~/.pidx/pidx.db"
+
+[[categories]]
+key = "serialization"
+title = "Serialization & Schema Tools"
+
+[[categories]]
+key = "database"
+title = "Data & Database"
+
+[[categories]]
+key = "devtools"
+title = "Developer Tools"
+
+[[repos]]
+name = "protobuf-rs"
+category = "serialization"
+
+[[repos]]
+name = "pwright"
+category = "devtools"
+
+[[repos]]
+name = "quiver-orm"
+category = "database"
