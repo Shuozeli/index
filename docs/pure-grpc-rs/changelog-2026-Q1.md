@@ -1,5 +1,38 @@
 # pure-grpc-rs Changelog -- 2026 Q1
 
+## Week 2026-W15 (Apr 7 - Apr 9)
+
+This week added comprehensive gRPC load testing infrastructure and benchmark servers.
+
+### Highlights
+
+**Comprehensive streaming load test** (`2e2f483`)
+
+Added `streaming_load_test` binary supporting multiple test scenarios:
+- Unary calls with various payload sizes (64B, 1KB, 64KB, 1MB)
+- Server streaming (1 request -> N responses)
+- Client streaming (N requests -> 1 response)
+- Bidirectional streaming (N requests <-> N responses)
+
+Tests both Tonic and pure-grpc prost clients against the same server.
+
+**Prost benchmark server** (`2e2f483`)
+
+Added `prost_benchmark_server` binary - a pure-grpc server implementing
+`BenchmarkService` with prost codec, enabling fair comparison between tonic
+and pure-grpc-rs prost performance.
+
+### Issues
+
+- Closed: None
+- Known: prost unary latency (~41ms) vs tonic (~0.25ms) - investigation pending
+
+### Releases
+
+None
+
+---
+
 ## Week 2026-W12 (Mar 16 - Mar 22)
 
 This week saw the initial creation of the pure-grpc-rs framework followed by
