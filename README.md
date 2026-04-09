@@ -13,6 +13,12 @@ I build systems software in Rust -- compilers, databases, networking, and develo
 | [protobuf-rs](https://github.com/Shuozeli/protobuf-rs) | Rust | Pure Rust Protocol Buffers compiler with recursive descent parser, semantic analysis, and byte-for-byte compatible output with `protoc` |
 | [flatbuffers-rs](https://github.com/Shuozeli/flatbuffers-rs) | Rust | Pure Rust drop-in replacement for the FlatBuffers compiler (`flatc`) with Rust and TypeScript codegen |
 
+### Codegen Infrastructure
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| [codegen-infra](https://github.com/Shuozeli/codegen-infra) | Rust | Unified code generation framework with adapters for FlatBuffers, Protobuf, and Quiver-ORM schemas, and code writers for Rust, Dart, and TypeScript |
+
 ### Binary Visualizers
 
 | Project | Language | Description |
