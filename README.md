@@ -47,6 +47,7 @@ I build systems software in Rust -- compilers, databases, networking, and develo
 
 | Project | Language | Description |
 |---------|----------|-------------|
+| [yt-dlp-rs](https://github.com/Shuozeli/yt-dlp-rs) | Rust | yt-dlp gRPC server + CLI client for video downloading and information extraction, with transcript support |
 | [issue-tracker-lite](https://github.com/Shuozeli/issue-tracker-lite) | Rust | Rebuild of Google Issue Tracker as a Rust gRPC server + CLI client + React web UI, backed by SQLite via Quiver ORM |
 | [pwright](https://github.com/Shuozeli/pwright) | Rust | Lightweight CLI for browser automation via Chrome DevTools Protocol using a snapshot-act-snapshot workflow |
 | [myfeed](https://github.com/Shuozeli/myfeed) | Rust | Personal feed bot that crawls Reddit, Zhihu, Weibo, and X via pwright browser automation and sends updates to Telegram |
